@@ -1,0 +1,9 @@
+from ML_answers.ML_answers_passport_14_years import all_answers_passport_14_years
+from ML_answers.ML_answers_passport_20_years import all_answers_passport_20_years
+from ML_answers.ML_answers_passport_45_years import all_answers_passport_45_years
+
+
+united_answers = []
+united_answers.extend(all_answers_passport_14_years)
+united_answers.extend(all_answers_passport_20_years)
+united_answers.extend(all_answers_passport_45_years)
