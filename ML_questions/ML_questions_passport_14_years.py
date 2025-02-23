@@ -1,7 +1,7 @@
 # Модуль с вопросами для голосового помощника
 
 # Общие вопросы
-general_answers_14_years = [
+general_questions_14_years = [
     "Как получить паспорт в 14 лет?",
     "Как оформить паспорт в 14 лет?",
     "Как сделать паспорт в 14 лет?",
@@ -15,7 +15,7 @@ general_answers_14_years = [
 ]
 
 # Вопросы о документах
-document_answers_14_years = [
+document_questions_14_years = [
     "Какие документы нужны для получения паспорта в 14 лет?",
     "Что нужно для оформления паспорта в 14 лет?",
     "Какие бумаги нужны для паспорта в 14 лет?",
@@ -29,7 +29,7 @@ document_answers_14_years = [
 ]
 
 # Вопросы о процедуре
-procedure_answers_14_years = [
+procedure_questions_14_years = [
     "Куда обращаться за паспортом в 14 лет?",
     "Где получить паспорт в 14 лет?",
     "Как подать заявление на паспорт в 14 лет?",
@@ -43,7 +43,7 @@ procedure_answers_14_years = [
 ]
 
 # Вопросы о сроках
-time_answers_14_years = [
+time_questions_14_years = [
     "Сколько времени занимает получение паспорта в 14 лет?",
     "Как быстро сделать паспорт в 14 лет?",
     "Сколько ждать паспорт в 14 лет?",
@@ -57,7 +57,7 @@ time_answers_14_years = [
 ]
 
 # Вопросы о месте получения
-location_answers_14_years = [
+location_questions_14_years = [
     "Где выдают паспорт в 14 лет?",
     "В какой организации получают паспорт в 14 лет?",
     "Можно ли получить паспорт в 14 лет в МФЦ?",
@@ -71,7 +71,7 @@ location_answers_14_years = [
 ]
 
 # Вопросы о гражданстве
-citizenship_answers_14_years = [
+citizenship_questions_14_years = [
     "Нужно ли подтверждать гражданство для паспорта в 14 лет?",
     "Как подтвердить гражданство для паспорта в 14 лет?",
     "Какие документы подтверждают гражданство для паспорта в 14 лет?",
@@ -85,7 +85,7 @@ citizenship_answers_14_years = [
 ]
 
 # Вопросы о родителях и опекунах
-parent_answers_14_years = [
+parent_questions_14_years = [
     "Нужны ли родители для получения паспорта в 14 лет?",
     "Можно ли получить паспорт в 14 лет без родителей?",
     "Как получить паспорт в 14 лет с помощью родителей?",
@@ -99,7 +99,7 @@ parent_answers_14_years = [
 ]
 
 # Вопросы о стоимости
-cost_answers_14_years = [
+cost_questions_14_years = [
     "Сколько стоит паспорт в 14 лет?",
     "Какая госпошлина за паспорт в 14 лет?",
     "Нужно ли платить за паспорт в 14 лет?",
@@ -113,7 +113,7 @@ cost_answers_14_years = [
 ]
 
 # Вопросы о фотографиях
-photo_answers_14_years = [
+photo_questions_14_years = [
     "Какие фотографии нужны для паспорта в 14 лет?",
     "Сколько фотографий нужно для паспорта в 14 лет?",
     "Где сделать фотографии для паспорта в 14 лет?",
@@ -127,7 +127,7 @@ photo_answers_14_years = [
 ]
 
 # Вопросы о заявлении
-application_answers_14_years = [
+application_questions_14_years = [
     "Как заполнить заявление на паспорт в 14 лет?",
     "Где взять бланк заявления на паспорт в 14 лет?",
     "Можно ли заполнить заявление на паспорт в 14 лет онлайн?",
@@ -140,18 +140,18 @@ application_answers_14_years = [
     "Нужно ли заверять заявление на паспорт в 14 лет?"
 ]
 
-all_answers_sections = [general_answers_14_years,
-                        document_answers_14_years,
-                        procedure_answers_14_years,
-                        time_answers_14_years,
-                        location_answers_14_years,
-                        citizenship_answers_14_years,
-                        parent_answers_14_years,
-                        cost_answers_14_years,
-                        photo_answers_14_years,
-                        application_answers_14_years,
-                        ]
+all_questions_sections = [general_questions_14_years,
+                          document_questions_14_years,
+                          procedure_questions_14_years,
+                          time_questions_14_years,
+                          location_questions_14_years,
+                          citizenship_questions_14_years,
+                          parent_questions_14_years,
+                          cost_questions_14_years,
+                          photo_questions_14_years,
+                          application_questions_14_years,
+                          ]
 
-all_answers_passport_14_years = []
-for answer_section in all_answers_sections:
-    all_answers_passport_14_years.extend(answer_section)
+all_questions_passport_14_years = []
+for answer_section in all_questions_sections:
+    all_questions_passport_14_years.extend(answer_section)

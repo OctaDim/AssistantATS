@@ -1,9 +1,27 @@
-from ML_answers.ML_answers_passport_14_years import all_answers_passport_14_years
-from ML_answers.ML_answers_passport_20_years import all_answers_passport_20_years
-from ML_answers.ML_answers_passport_45_years import all_answers_passport_45_years
+from ML_answers.ML_answers_correction_added import correction_added
+from ML_answers.ML_answers_detailed_passport_14_years import all_answers_detailed_passport_14_years
+from ML_answers.ML_answers_detailed_passport_20_years import all_answers_detailed_passport_20_years
+from ML_answers.ML_answers_detailed_passport_45_years import all_answers_detailed_passport_45_years
+from ML_answers.ML_answers_combined_passport_14_years import all_answers_combined_passport_14_years
+from ML_answers.ML_answers_combined_passport_20_years import all_answers_combined_passport_20_years
+from ML_answers.ML_answers_combined_passport_45_years import all_answers_combined_passport_45_years
 
 
 united_answers = []
-united_answers.extend(all_answers_passport_14_years)
-united_answers.extend(all_answers_passport_20_years)
-united_answers.extend(all_answers_passport_45_years)
+united_answers.extend(all_answers_combined_passport_14_years)
+united_answers.extend(all_answers_combined_passport_20_years)
+united_answers.extend(all_answers_combined_passport_45_years)
+
+united_answers.extend(all_answers_detailed_passport_14_years)
+united_answers.extend(all_answers_detailed_passport_20_years)
+united_answers.extend(all_answers_detailed_passport_45_years)
+
+united_answers.extend(correction_added)
+
+# unique_united_answers = list(set(united_answers))
+unique_united_answers = []
+for answer in united_answers:
+    if answer not in unique_united_answers:
+        unique_united_answers.append(answer)
+
+# print(unique_united_answers)
